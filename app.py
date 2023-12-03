@@ -46,7 +46,7 @@ input_data = pd.DataFrame({'Outlook': [outlook], 'Temperature': [temperature], '
 input_data['Outlook'] = input_data['Outlook'].map({'Overcast':0,'Rain':1,'Sunny':2})
 input_data['Temperature'] = input_data['Temperature'].map({'Cool':0,'Hot':1,'Mild':2})
 input_data['Humidity'] = input_data['Humidity'].map({'High':0,'Normal':1})
-input_data['Windy'] = input_data['Windy'].map({'No':0,'Yes':1})
+input_data['Windy'] = input_data['Windy'].map({'Strong':0,'Weak':1})
 
 
 # prediction = model.predict(input_data)
